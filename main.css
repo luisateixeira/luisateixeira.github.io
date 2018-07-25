@@ -1,0 +1,86 @@
+body {
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+body, button {
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+  font-weight: 300;
+  line-height: 1.8;
+  color: #222222;
+  font-size: 1em;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0.67em 0;
+  font-weight: 200;
+  line-height: 1;
+}
+
+a, a:hover, a:visited, a:focus {
+  border: none;
+  text-decoration: none;
+  outline: 0;
+  color: #de4e43;
+  font-weight: 400;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.wrapper {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.main {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  position: relative;
+  max-width: 700px;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.inner {
+  overflow-x: hidden;
+  max-width: 100%;
+  padding: 0 50px 50px;
+}
+
+.status {
+  font-size: 0.85em;
+  border-top: 1px #bbb dotted;
+  border-bottom: 1px #bbb dotted;
+  margin: 30px 0;
+}
+
+.social a {
+  margin-right: 30px;
+}
